@@ -19,7 +19,7 @@ const loadAbout = () =>
     // image of kitchen
     const kitchentext = document.createElement('figcaption');
     kitchentext.id = "kitchentext";
-    kitchentext.innerHTML = "<a href='https://unsplash.com/@michaelwb' target='_new'>@michaelwb</a>";
+    kitchentext.innerHTML = "<a class='authlink' href='https://unsplash.com/@michaelwb' target='_new'>@michaelwb</a>";
 
     const kitchenimg = document.createElement('img');
     kitchenimg.src = 'images/kitchen.jpg';
